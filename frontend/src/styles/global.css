@@ -1,0 +1,278 @@
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: #f4f4f4;
+    border-right: 2px solid #ddd;
+  }
+  
+  .toggle-buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .toggle-buttons button:hover {
+    background: #0056b3;
+  }
+  
+  .budget-info p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .home-container {
+    display: flex;
+  }
+  
+  .expense-list {
+    width: 70%;
+    padding: 20px;
+  }
+  .expense-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-details h3 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .expense-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn {
+    background: #ffc107;
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+  }
+  .expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-form input,
+  .expense-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .expense-form button {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .expense-form button:hover {
+    background: #0056b3;
+  }
+  .edit-mode {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .edit-mode input,
+  .edit-mode select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-mode .save-btn {
+    background: #28a745;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-mode .cancel-btn {
+    background: #dc3545;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background: #2c3e50;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Home Page Layout */
+  .home-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 25%;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Expense List Styling */
+  .expense-list {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Expense Blocks */
+  .expense-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Buttons */
+  button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  .expense-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .expense-form input, .expense-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .filter-select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .expense-list-container {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .charts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .expense-content {
+    flex-grow: 1;
+    margin-right: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
